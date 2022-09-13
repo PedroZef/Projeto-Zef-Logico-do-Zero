@@ -20,3 +20,6 @@ select c.Nome
     inner join StatusOrdemServico so on so.id = o.idStatusOrdemServico
     WHERE
     so.Identificacao = 'ABERTO';
+
+    
+    INSERT INTO Cliente (Nome, Telefone, Email) VALUES ('Manoel Wosvaldo da Mota', '(74)9951.9880', 'manoel@wosvaldo.com');
