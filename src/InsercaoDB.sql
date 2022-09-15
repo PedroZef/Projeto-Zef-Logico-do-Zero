@@ -18,9 +18,9 @@ INSERT INTO Marca (id, Identificacao) VALUES ('2','Renault');
 INSERT INTO Marca (id, Identificacao) VALUES ('3','Volkswagen');
 INSERT INTO Marca (id, Identificacao) VALUES ('4', 'Fiat');
 
-INSERT INTO Modelo (id,  idMarca, Identificacao, Ano) VALUES ('1', 1, 'KA', 2015);
-INSERT INTO Modelo (id, ' idMarca, Identificacao, Ano) VALUES (2', 1, 'Fiesta', 2013);
-INSERT INTO Modelo (id,  idMarca, Identificacao, Ano) VALUES ('3', 2, 'Gol', 2015);
+INSERT INTO Modelo (id, idMarca, Identificacao, Ano) VALUES ('1', 1, 'KA', 2015);
+INSERT INTO Modelo (id, idMarca, Identificacao, Ano) VALUES (2', 1, 'Fiesta', 2013);
+INSERT INTO Modelo (id, idMarca, Identificacao, Ano) VALUES ('3', 2, 'Gol', 2015);
 INSERT INTO Modelo (id, idMarca, Identificacao, Ano) VALUES ('4', 3, 'Fiat', 2010);
 
 INSERT INTO Equipe (id, Identificacao) VALUES ('1', 'Borracharia');
@@ -33,7 +33,7 @@ INSERT INTO StatusServico (id, Identificacao) VALUES ('1', 'A FAZER');
 INSERT INTO StatusServico (id, Identificacao) VALUES ('2', 'FAZENDO');
 INSERT INTO StatusServico (id, Identificacao) VALUES ('5','AGUARANDO PEÇA');
 INSERT INTO StatusServico (id, Identificacao) VALUES ('4','CANCELADO');
-INSERT INTO StatusServico (id, Identificacao) VALUES ('7 'CONCLUÍDO');
+INSERT INTO StatusServico (id, Identificacao) VALUES ( 7, 'CONCLUÍDO');
 
 INSERT INTO TabelaServico (id, Identificacao, ValorTabela) VALUES ('5', 'Pintura geral', 2000);
 INSERT INTO TabelaServico (id, Identificacao, ValorTabela) VALUES ('3', 'Troca do motor', 1500);
